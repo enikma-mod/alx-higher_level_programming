@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 def no_c(my_string):
-    string_list = list(my_string)
-    index_counter = 0
-    for index in string_list:
-        if index == "c" or index == "C":
-            string_list[index_counter] = ""
-        index_counter += 1
-    return "".join(string_list)
+    copy = ""
+    for x in range(0, len(my_string)):
+        if my_string[x] != 'c' and my_string[x] != "C":
+            copy += my_string[x]
+    return copy
