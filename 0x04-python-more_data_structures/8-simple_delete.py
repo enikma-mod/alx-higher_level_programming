@@ -1,3 +1,3 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 def simple_delete(a_dictionary, key=""):
-    return del a_dictionary[""]
+    a_dictionary.pop(key, None)
