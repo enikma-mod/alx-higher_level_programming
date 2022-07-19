@@ -2,9 +2,10 @@
 
 """Defines a Square class"""
 
-class Square:
-    """ Initializes the square class with a size arg"""
-    def __init__(self, size)
 
-    self.__size = size
+class Square:
+    """ Class for square """
+    def __init__(self, size=0):
+        """Initializes the square class"""
+        self.__size = size
 
